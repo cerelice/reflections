@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It helped me to see where was difference between two files, so I see only lines
+that was changed. To find those bug, I don't have to look thought all document,
+obviously it must be in lines which were changed.
+
+-------------------------------------------------------------------------------
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+You can see all changes that you have made, maybe some of them weren't
+successfull, so you can return to previous ideas. Also it is usefull to see your
+progress and progress of your project.
+
+-------------------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+pros: you choose the right time for doing it, when you have made some
+independent logic change. There must be logical purpose for creating version.
+You can avoid having too much versions. Also, all commits will have sense and
+will be finished logically.  cons: if versions aren't saved automatically,  you
+can forget to do it. If had happened something unexpected, you can lose your
+data or changes.
+
+-------------------------------------------------------------------------------
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because saving multiple lines in one commit is useful for coding and developers,
+but for simple users it isn't nessesary, as most of files aren't connected.
+
+-------------------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log - helps to see all history of commits: id, author, date and short
+description git diff - show differences between two files, what was added and
+what deleted.
+
+-------------------------------------------------------------------------------
+
+How might using version control make you more confident to make changes that
+could break something?
+
+You can come back any time and undo that changes completly.
+
+-------------------------------------------------------------------------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For improving quality of my programming skills, saving versions of my projects
+and working with other people.
