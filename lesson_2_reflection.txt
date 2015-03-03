@@ -13,4 +13,44 @@ It is middle stage between those. It allows to work and commit more convinient.
 
 -------------------------------------------------------------------------------
 
+How can you use the staging area to make sure you have one commit per logical
+change?
 
+It is buffer between the working directory and the repository, you add there
+files for one logical change, not all of changes.
+
+-------------------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches has labels, it is easier to manage them and understand what it
+contains. Also it is useful if you want to make some changes but don't want to
+lost this version of project. For example, new features for try, different
+versions with slight different functionality.
+
+-------------------------------------------------------------------------------
+
+How do the diagrams help you visualize the branch structure?
+
+It helps to understand all structure, to see which commit belong to which
+branch, what is different between them.
+
+-------------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+It is commit. Because it has two parents, operands from merge.
+
+-------------------------------------------------------------------------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
++: 
+    * it saves time and afforts
+-:   
+ 	* something it may do some unlogical changes which will damage your data
+ 	
+-----------------------------------------------------------------------------
