@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It create a hidden directory .git for commits. It create a new container, ready
+to be fulled with commits. Without it it would be impossible to track your
+project, put files to repository and create commits.
+
+-------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+It is middle stage between those. It allows to work and commit more convinient.
+
+-------------------------------------------------------------------------------
+
+
