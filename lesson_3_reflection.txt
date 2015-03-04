@@ -28,3 +28,26 @@ copy of some remote in your computer and work with it. Branch is used for
 applying not linear changes in existing repo.
 
 -------------------------------------------------------------------------------
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Then there will happen fast-forward merge when you pull, it is more convinient
+and faster.
+
+-------------------------------------------------------------------------------
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+Via Dropbox or some service like it. Or may be just by sending files to each
+other. It would be harder to compare and merge files, to have one version of
+project.
+
+-------------------------------------------------------------------------------
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+When you work with other people and changes may create conflicts.
+
